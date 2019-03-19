@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/server_address_default"
+        android:inputType="text"
+        android:key="_.SERVER_ADDRESS"
+        android:maxLines="1"
+        android:negativeButtonText="@string/cancel"
+        android:positiveButtonText="@string/save"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/server_address" />
+
+    <EditTextPreference
+        android:defaultValue="@string/map_radius_default"
+        android:inputType="number"
+        android:key="_.MAP_LOAD_RADIUS"
+        android:maxLines="1"
+        android:negativeButtonText="@string/cancel"
+        android:positiveButtonText="@string/save"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/map_radius" />
+
+</PreferenceScreen>

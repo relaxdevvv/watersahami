@@ -1,0 +1,86 @@
+<!--<configuration>-->
+
+    <!--<property name="LOG_DIR" value="${EXT_DIR:-/sdcard}/Payab/logs" />-->
+    <!--&lt;!&ndash;<property name="LOG_DIR" value="/data/data/ir.nimcode.dolphin/files" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash; Create a logcat appender &ndash;&gt;-->
+    <!--<appender name="LOGCAT" class="ch.qos.logback.classic.android.LogcatAppender">-->
+        <!--<encoder>-->
+            <!--<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+        <!--</encoder>-->
+    <!--</appender>-->
+
+
+    <!--&lt;!&ndash; Create a file appender for TRACE-level messages &ndash;&gt;-->
+    <!--<appender name="ErrorLog" class="ch.qos.logback.core.FileAppender">-->
+        <!--<filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+            <!--<level>ERROR</level>-->
+            <!--<onMatch>ACCEPT</onMatch>-->
+            <!--<onMismatch>DENY</onMismatch>-->
+        <!--</filter>-->
+
+        <!--<file>${LOG_DIR}/error.log</file>-->
+
+        <!--<encoder>-->
+            <!--<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+        <!--</encoder>-->
+    <!--</appender>-->
+
+    <!--&lt;!&ndash; Create a file appender for DEBUG-level messages &ndash;&gt;-->
+    <!--<appender name="DebugLog" class="ch.qos.logback.core.FileAppender">-->
+        <!--<filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+            <!--<level>DEBUG</level>-->
+            <!--<onMatch>ACCEPT</onMatch>-->
+            <!--<onMismatch>DENY</onMismatch>-->
+        <!--</filter>-->
+
+        <!--<file>${LOG_DIR}/debug.log</file>-->
+
+        <!--<encoder>-->
+            <!--<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+        <!--</encoder>-->
+    <!--</appender>-->
+
+    <!--&lt;!&ndash; Create a file appender for TRACE-level messages &ndash;&gt;-->
+    <!--<appender name="InfoLog" class="ch.qos.logback.core.FileAppender">-->
+        <!--<filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+            <!--<level>INFO</level>-->
+            <!--<onMatch>ACCEPT</onMatch>-->
+            <!--<onMismatch>DENY</onMismatch>-->
+        <!--</filter>-->
+
+        <!--<file>${LOG_DIR}/info.log</file>-->
+
+        <!--<encoder>-->
+            <!--<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+        <!--</encoder>-->
+    <!--</appender>-->
+
+
+    <!--&lt;!&ndash; Write TRACE messages from class A to its own log &ndash;&gt;-->
+    <!--&lt;!&ndash;<logger name="ir.nimcode.dolphin.activity.MainActivity" level="TRACE">&ndash;&gt;-->
+    <!--&lt;!&ndash;<appender-ref ref="TraceLog" />&ndash;&gt;-->
+    <!--&lt;!&ndash;</logger>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;&lt;!&ndash; Write TRACE messages from class A to its own log &ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;<logger name="ir.nimcode.dolphin.activity.MainActivity" level="DEBUG">&ndash;&gt;-->
+    <!--&lt;!&ndash;<appender-ref ref="DebugLog" />&ndash;&gt;-->
+    <!--&lt;!&ndash;</logger>&ndash;&gt;-->
+
+    <!--&lt;!&ndash; Write DEBUG messages from class B to its own log &ndash;&gt;-->
+    <!--<root level="ERROR">-->
+        <!--<appender-ref ref="LOGCAT" />-->
+        <!--<appender-ref ref="ErrorLog" />-->
+    <!--</root>-->
+
+    <!--<root level="DEBUG">-->
+        <!--<appender-ref ref="LOGCAT" />-->
+        <!--<appender-ref ref="DebugLog" />-->
+    <!--</root>-->
+
+    <!--<root level="INFO">-->
+        <!--<appender-ref ref="LOGCAT" />-->
+        <!--<appender-ref ref="InfoLog" />-->
+    <!--</root>-->
+
+<!--</configuration>-->

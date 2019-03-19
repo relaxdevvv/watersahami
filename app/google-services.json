@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "560926259000",
+    "firebase_url": "https://dolphin-195415.firebaseio.com",
+    "project_id": "dolphin-195415",
+    "storage_bucket": "dolphin-195415.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560926259000:android:0274bf8b91aa2b21",
+        "android_client_info": {
+          "package_name": "ir.nimcode.dolphin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560926259000-pk4p1nisi5ploe152nahqmgeiot9vfik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.nimcode.dolphin",
+            "certificate_hash": "8ca4d544c381dcd01ddcde41ad8bf3ecd84029d4"
+          }
+        },
+        {
+          "client_id": "560926259000-n3n6cupej3tgqpcpjj5fhitlb2dds7e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA6jM0l8IfwmJZw7nSN72tvbxX-pLt5ss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560926259000-n3n6cupej3tgqpcpjj5fhitlb2dds7e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

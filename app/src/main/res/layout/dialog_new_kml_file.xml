@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:lines="2"
+        android:text="@string/new_kml_file_description"
+        android:textColor="@color/md_light_primary_text" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/name"
+        style="@style/MaterialEditTextLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:hint="@string/area_name"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.marcouberti.autofitbutton.AutoFitButton
+            android:id="@+id/select_file"
+            style="@style/MaterialButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight=".5"
+            android:drawableLeft="@drawable/ic_kml"
+            android:drawableStart="@drawable/ic_kml"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/choose_file" />
+
+        <com.marcouberti.autofitbutton.AutoFitButton
+            android:id="@+id/save"
+            style="@style/MaterialButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight=".5"
+            android:drawableLeft="@drawable/ic_save"
+            android:drawableStart="@drawable/ic_save"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/save" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.NoInternetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/no_network_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:lineSpacingExtra="10dp"
+            android:text="با توجه به اینکه شما تاکنون به حساب کاربری خود وارد نشده اید،
+نمی توانید از نرم افزار در حالت آفلاین استفاده کنید
+و باید دستگاه خود را به اینترنت متصل کنید."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/md_grey_900"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/retry"
+            style="@style/MaterialButton"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/ic_refresh"
+            android:drawableStart="@drawable/ic_refresh"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/retry" />
+
+        <Button
+            android:id="@+id/setting"
+            style="@style/MaterialButton"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/ic_settings"
+            android:drawableStart="@drawable/ic_settings"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/settings" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

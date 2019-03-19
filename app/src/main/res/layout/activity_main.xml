@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:contentInsetStart="0dp"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/toolbar_title"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/md_white_1000" />
+
+                    <ImageView
+                        android:id="@+id/offline_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_offline"
+                        android:tint="@color/md_light_disabled"
+                        android:visibility="invisible" />
+
+                    <com.github.clans.fab.FloatingActionButton
+                        android:id="@+id/action_history"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/ic_history"
+                        app:fab_colorNormal="@color/primary"
+                        app:fab_colorPressed="@color/md_dark_ripple"
+                        app:fab_colorRipple="@color/md_dark_ripple"
+                        app:fab_showShadow="false" />
+
+                    <com.github.clans.fab.FloatingActionButton
+                        android:id="@+id/action_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/ic_search"
+                        app:fab_colorNormal="@color/primary"
+                        app:fab_colorPressed="@color/md_dark_ripple"
+                        app:fab_colorRipple="@color/md_dark_ripple"
+                        app:fab_showShadow="false" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:id="@+id/crossfade_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/md_light_background"
+            android:gravity="center"
+            android:theme="@style/Theme.AppCompat.Light">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <!--<ImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/ic_search_map" />-->
+
+                    <!--<ProgressBar-->
+                    <!--android:id="@+id/search_map_progress"-->
+                    <!--android:layout_width="25dp"-->
+                    <!--android:layout_height="25dp"-->
+                    <!--android:layout_gravity="right"-->
+                    <!--android:layout_margin="3dp"-->
+                    <!--android:visibility="invisible" />-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:textColor="@color/accent" />
+                </FrameLayout>
+
+            </FrameLayout>
+
+            <!--<ImageView-->
+            <!--android:id="@+id/filter"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="start"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:src="@drawable/ic_filter_square" />-->
+
+            <ImageView
+                android:id="@+id/my_location"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_my_location_square" />
+
+            <ImageView
+                android:id="@+id/map_style_mode"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/google_map_button_background"
+                android:padding="5dp"
+                android:src="@drawable/google_maps" />
+
+            <ImageView
+                android:id="@+id/direction"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/google_map_button_background"
+                android:padding="5dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_directions"
+                tools:visibility="visible" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_map_bottom_sheet" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/add_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add"
+        app:fab_colorNormal="@color/accent"
+        app:fab_colorPressed="@color/colorPrimaryDark"
+        app:fab_colorRipple="@color/md_white_1000"
+        app:layout_anchor="@+id/map_bottom_sheet"
+        app:layout_anchorGravity="top|end" />
+
+</android.support.design.widget.CoordinatorLayout>

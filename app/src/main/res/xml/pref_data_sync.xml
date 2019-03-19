@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/sync_data_frequency"
+        android:entryValues="@array/sync_data_frequency_values"
+        android:key="download_data_frequency"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/download_data" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/sync_data_frequency"
+        android:entryValues="@array/sync_data_frequency_values"
+        android:key="upload_data_frequency"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/upload_data" />
+
+
+</PreferenceScreen>

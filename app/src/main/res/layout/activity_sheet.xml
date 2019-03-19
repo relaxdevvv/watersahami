@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.SheetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:contentInsetStart="0dp"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/toolbar_title"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="sdfdsfsd"
+                        android:textColor="@color/md_white_1000" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background_rounded_black"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/document_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="ajnfjaskfjbaksjbfk"
+                            android:textColor="@color/md_white_1000"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                    <!--<com.github.clans.fab.FloatingActionButton-->
+                    <!--android:id="@+id/action_save"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:clickable="true"-->
+                    <!--android:focusable="true"-->
+                    <!--android:src="@drawable/ic_save"-->
+                    <!--app:fab_colorNormal="@color/primary"-->
+                    <!--app:fab_colorPressed="@color/md_dark_ripple"-->
+                    <!--app:fab_colorRipple="@color/md_dark_disabled"-->
+                    <!--app:fab_showShadow="false" />-->
+
+                </LinearLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+            <com.ogaclejapan.smarttablayout.SmartTabLayout
+                android:id="@+id/view_pager_tab"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:clipToPadding="true"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:stl_customTabTextLayoutId="@layout/layout_tab_text_view"
+                app:stl_customTabTextViewId="@id/tab_layout_text_view"
+                app:stl_defaultTabTextColor="@color/md_white_1000"
+                app:stl_defaultTabTextHorizontalPadding="18dp"
+                app:stl_dividerColor="@color/float_transparent"
+                app:stl_dividerThickness="0dp"
+                app:stl_indicatorColor="@color/md_light_disabled"
+                app:stl_indicatorCornerRadius="18dp"
+                app:stl_indicatorGravity="center"
+                app:stl_indicatorInterpolation="smart"
+                app:stl_indicatorThickness="36dp"
+                app:stl_underlineColor="@color/float_transparent"
+                app:stl_underlineThickness="0dp" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

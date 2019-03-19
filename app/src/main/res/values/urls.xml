@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<string name="server_address_default">192.168.43.249:7070</string>-->
+    <!--<string name="server_address_default">77.104.94.43</string>-->
+    <string name="server_address_default">217.219.219.94</string>
+    <string name="server_name">منطقه کرمانشاه</string>
+
+</resources>

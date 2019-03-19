@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Payab</string>
+    <string name="title_bar">پایاب</string>
+
+    <string name="fontBold">fonts/IRAN Sans Bold.ttf</string>
+    <string name="fontMedium">fonts/IRAN Sans Medium.ttf</string>
+    <string name="fontNormal">fonts/IRAN Sans.ttf</string>
+    <string name="fontLight">fonts/IRAN Sans Light.ttf</string>
+
+    <string name="map_radius_default">2000</string>
+
+    <string name="about_us_text">گروه nimcode با به‌ کارگیری نیروهای متخصص و استفاده از آخرین تکنولوژی ها و استانداردهای موجود در زمینه طراحی انواع برنامه های اندروید ، ios ، وب سایت های سازمانی و شخصی می کوشد تا خدمات خود را با در نظرگرفتن تمامی نیازهای مشتریان با امکانات بسیار ویژه و منحصر به فرد در اسرع وقت طراحی و اجرا نماید.
+\n وبسایت : www.nimcode.ir
+ \n   شماره تماس :  09031214416 - 09138373575 </string>
+
+    <string name="support_tel">tel:09031214416</string>
+    <string name="not_telegram_install_error">نرم افزار تلگرام در گوشی شما یافت نشد، شما می توانید از طریق دستگاه دیگری با شناسه تلگرامی saeedata@ در ارتباط باشید</string>
+    <string name="support_telegram_id">http://telegram.me/saeedata </string>
+
+    <string name="design_by_nimcode">طراحی شده توسط nimcode.ir</string>
+
+    <string name="default_passcode">2098</string>
+
+
+</resources>

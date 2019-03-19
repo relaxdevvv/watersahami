@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="@color/md_light_primary_icon"
+            android:src="@drawable/background_splash" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/background_rounded_black"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_launcher_web" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_user"
+                    android:tint="@color/md_dark_primary_text" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/user_name"
+                    style="@style/MaterialEditTextDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/username_hint"
+                    android:inputType="text"
+                    app:met_floatingLabelTextColor="@color/md_white_1000"
+                    app:met_underlineColor="@color/md_grey_500" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_key"
+                    android:tint="@color/md_dark_primary_text" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/password"
+                    style="@style/MaterialEditTextDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/password_hint"
+                    android:inputType="textPassword"
+                    app:met_floatingLabelTextColor="@color/md_white_1000"
+                    app:met_underlineColor="@color/md_grey_500" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/forget_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="@string/forget_password"
+                android:textColor="@color/md_white_1000" />
+
+            <TextView
+                android:id="@+id/call_support"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/call_to_support"
+                android:textColor="@color/md_white_1000"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/login"
+                style="@style/MaterialButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login" />
+
+            <Button
+                android:id="@+id/exit"
+                style="@style/MaterialButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exit" />
+
+        </LinearLayout>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/change_server_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_settings"
+            app:fab_colorNormal="@color/float_transparent"
+            app:fab_colorPressed="@color/md_dark_ripple"
+            app:fab_colorRipple="@color/md_dark_ripple"
+            app:fab_showShadow="false" />
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

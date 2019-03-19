@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="0"
+        android:key="_.FILTER_FORM_ID"
+        android:negativeButtonText="@string/cancel"
+        android:positiveButtonText="@string/save"
+        android:title="@string/form_type_hint" />
+
+</PreferenceScreen>

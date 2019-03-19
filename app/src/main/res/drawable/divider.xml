@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:bottom="15dp"
+        android:top="15dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/md_light_dividers" />
+            <size android:height="1dp" />
+        </shape>
+    </item>
+</layer-list>

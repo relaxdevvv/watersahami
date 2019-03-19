@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/server_address"
+        style="@style/MaterialEditTextLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:hint="@string/server_address"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/save"
+        style="@style/MaterialButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/save" />
+
+</LinearLayout>

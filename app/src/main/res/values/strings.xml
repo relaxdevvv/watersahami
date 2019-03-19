@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="profile">حساب کاربری</string>
+    <string name="messages">پیام ها</string>
+    <string name="history">تاریخچه</string>
+    <string name="report">گزارش گیری</string>
+    <string name="send_information">ارسال اطلاعات</string>
+    <string name="receive_information">دریافت اطلاعات</string>
+    <string name="settings">تنظیمات</string>
+    <string name="support">پشتیبانی</string>
+    <string name="about_us">درباره ما</string>
+    <string name="logout">خروج از حساب کاربری</string>
+
+    <string name="calculating">در حال جستجوی اطلاعات …</string>
+    <string name="sending">در حال ارسال اطلاعات …</string>
+    <string name="loading">در حال دریافت اطلاعات …</string>
+    <string name="saving">در حال ذخیره اطلاعات …</string>
+    <string name="waiting">لطفا صبر کنید …</string>
+
+    <string name="no_gps_message">لطفا مکان یاب خود را فعال کنید</string>
+    <string name="no_internet_message">خطا در اتصال به اینترنت</string>
+    <string name="no_telegram_message">برنامه تلگرام روی گوشی شما نصب نشده است</string>
+
+    <string name="downloading_new_version">در حال دریافت نسخه جدید …</string>
+    <string name="update">بروزرسانی</string>
+    <string name="update_message">بروزرسانی جدید موجود است، لطفا نرم افزار خود را بروزرسانی کنید</string>
+    <string name="server_connection_error">خطا در ارتباط با سرور</string>
+    <string name="exit_message">لطفا برای خروج از برنامه، مجددا کلید بازگشت را فشار دهید</string>
+
+    <string name="full_name_label">نام و نام خانوادگی:</string>
+    <string name="full_name_error_empty">لطفا نام و نام خانوادگی خود را وارد کنید</string>
+
+    <string name="first_name_hint">نام</string>
+    <string name="first_name_error_empty">لطفا نام خود را وارد کنید</string>
+
+    <string name="last_name_hint">نام خانوادگی</string>
+    <string name="last_name_error_empty">لطفا نام خانوادگی خود را وارد کنید</string>
+
+    <string name="username_hint">نام کاربری</string>
+    <string name="username_empty_error">لطفا نام کاربری خود را وارد کنید</string>
+
+    <string name="email_label">ایمیل:</string>
+    <string name="email_hint">ایمیل</string>
+    <string name="optional_email_hint">ایمیل (اختیاری)</string>
+    <string name="email_error_invalid">لطفا آدرس ایمیل معتبر وارد کنید</string>
+
+    <string name="mobile_number_label">شماره تلفن همراه:</string>
+    <string name="mobile_number_hint">شماره تلفن همراه</string>
+    <string name="mobile_number_error_empty">لطفا شماره تلفن همراه خود را وارد کنید</string>
+    <string name="mobile_number_error_invalid">لطفا شماره تلفن همراه معتبر وارد کنید</string>
+
+    <string name="password_hint">رمز عبور</string>
+    <string name="forget_password"><u>بازیابی رمز عبور؟</u></string>
+    <string name="confirm_password_hint">تکرار رمز عبور</string>
+    <string name="new_password_hint">رمز عبور جدید</string>
+    <string name="old_password_hint">رمز عبور فعلی</string>
+    <string name="change_password">تغییر رمز عبور</string>
+    <string name="change_password_success">رمز عبور با موفقیت تغییر یافت</string>
+    <string name="change_password_failed">رمز عبور فعلی صحیح نبود</string>
+    <string name="receive_new_password">دریافت رمز عبور جدید</string>
+    <string name="forget_password_description">لطفا شماره تلفن همراه خود را جهت ارسال رمز عبور جدید وارد کنید:</string>
+    <string name="new_password_sent_success">رمز عبور جدید به تلفن همراه شما ارسال خواهد شد </string>
+    <string name="new_password_sent_failed">این شماره تلفن در سیستم ثبت نشده است</string>
+    <string name="password_error_empty">لطفا رمز عبور خود را وارد کنید</string>
+    <string name="password_error_invalid">طول رمز عبور باید بیش از 4 کاراکتر باشد</string>
+    <string name="confirm_password_error_empty">لطفا تکرار رمز عبور خود را وارد کنید</string>
+    <string name="confirm_password_error_invalid">تکرار رمز عبور اشتباه است</string>
+
+    <string name="login_success">شما با موفقیت وارد حساب کاربری خود شدید</string>
+    <string name="waiting_time_for_sms">حداکثر زمان تا دریافت پیامک</string>
+
+    <string name="new_features">ویژگی های جدید:</string>
+    <string name="mandatory">اجباری</string>
+    <string name="un_mandatory">اختیاری</string>
+    <string name="login_failed">نام کاربری یا رمز عبور اشتباه است</string>
+    <string name="error">خطا</string>
+    <string name="warning">هشدار</string>
+    <string name="no">خیر</string>
+    <string name="yes">بله</string>
+    <string name="close">بستن</string>
+    <string name="exit">خروج</string>
+    <string name="skip">رد کردن</string>
+    <string name="install">نصب</string>
+    <string name="understood">فهمیدم</string>
+    <string name="save">ذخیره</string>
+    <string name="confirm">تایید</string>
+    <string name="see">مشاهده</string>
+    <string name="enter">ورود</string>
+    <string name="login">ورود به حساب کاربری</string>
+    <string name="ok">بسیار خب</string>
+    <string name="retry">تلاش مجدد</string>
+    <string name="details">جزئیات</string>
+    <string name="accept">قبول می کنم</string>
+    <string name="cancel">لغو</string>
+    <string name="logout_message">آیا از خروج از حساب کاربری خود اطمینان دارید؟</string>
+    <string name="google_play_service_error_tittle">عدم نصب و یا بروز بودن Google Play Service </string>
+    <string name="google_play_service_error_message">لطفا از نصب و یا بروز بودن Google Play Service خود اطمینان پیدا کنید و در غیر این صورت اعلان های صادره از سرور برای شما قابل نمایش نیست.</string>
+
+    <string name="request_failed">درخواست شما لغو شد</string>
+    <string name="failed_to_receive_data">خطا در دریافت اطلاعات</string>
+    <string name="time_label">زمان:</string>
+    <string name="date_label">تاریخ:</string>
+    <string name="description_label">توضیحات:</string>
+    <string name="change_photo">تغییر تصویر</string>
+    <string name="edit_profile">تغییر اطلاعات کاربری</string>
+
+    <string name="edit_profile_success">اطلاعات حساب کاربری با موفقیت تغیر یافت</string>
+    <string name="edit_profile_failed">تغییر اطلاعات حساب ناموفق بود</string>
+
+    <string name="connection_disconnect">ارتباط لغو شد</string>
+    <string name="no_location_found">هیچ مکانی با این آدرس یافت نشد</string>
+
+    <string name="messages_empty">هیچ پیام جدیدی یافت نشد</string>
+    <string name="new_message">پیام جدید</string>
+    <string name="features_add_later">این امکان بعدا اضافه خواهد شد</string>
+    <string name="start_offline_mode">شروع در حالت آفلاین</string>
+
+    <string name="request_permissions1_message">برای اجرای صحیح برنامه لطفا اجازه به دسترسی های خواسته شده را صادر کنید</string>
+    <string name="request_permissions2_message">متاسفانه شما درخواست برای دسترسی های مورد نیاز را غیرفعال کردید، لطفا از قسمت تنظیمات آنها را فعال کنید</string>
+
+    <string name="greeting">خوش آمدید</string>
+
+    <string name="contact_us">ارتباط با ما</string>
+    <string name="call_to_support"><u>تماس با پشتیبانی</u></string>
+    <string name="notification">نوتیفیکیشن</string>
+
+    <string name="kml_files">فایل های kml</string>
+    <string name="search">جستجو</string>
+    <string name="noting_found_error">هیچ موردی یافت نشد</string>
+    <string name="forms">فرم ها</string>
+    <string name="update_location">بروزرسانی مکان فعلی</string>
+
+    <string name="save_information_success">اطلاعات با موفقیت ذخیره شد</string>
+
+    <string name="supervisor_error_empty">لطفا نام سرپرست را وارد کنید</string>
+    <string name="supervisor_hint">نام سرپرست</string>
+    <string name="supervisor_label">نام سرپرست :</string>
+
+    <string name="document_status">وضعیت:</string>
+    <string name="new_document">سند جدید</string>
+    <string name="draft_document">پیش نویس</string>
+    <string name="accept_document">پذیرفته شده</string>
+    <string name="pending_document">درحال بررسی</string>
+    <string name="reject_document">رد شده</string>
+    <string name="area_name">نام منطقه</string>
+    <string name="new_kml_file_description">فایل kml خود را از قسمت فایل ها انتخاب کنید و به آن یک نام اختصاص دهید</string>
+    <string name="choose_file">انتخاب فایل</string>
+    <string name="kml_file_name_empty_error">لطفا نام منطقه را وارد کنید</string>
+    <string name="save_information_fail">خطا در ذخیره اطلاعات</string>
+    <string name="delete_file_question">آیا از حذف این فایل مطمئن هستید؟</string>
+    <string name="select">انتخاب</string>
+
+    <!-- Strings related to Settings -->
+    <!-- General settings -->
+    <string name="header_general">تنظیمات اصلی</string>
+    <string name="server_address">آدرس سرور</string>
+    <string name="map_radius">شعاع نمایش منابع رو نقشه (متر)</string>
+
+
+    <!-- settings for Data & Sync -->
+    <string name="header_data_sync">بروزرسانی و ارسال داده ها</string>
+    <string name="download_data">دریافت داده ها</string>
+    <string name="upload_data">ارسال داده ها</string>
+    <string-array name="sync_data_frequency">
+        <item>به صورت دستی</item>
+        <item>خودکار(به محض اتصال به اینترنت)</item>
+    </string-array>
+    <string-array name="sync_data_frequency_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- settings for Notifications -->
+    <string name="header_notifications">نوتیفیکیشن</string>
+    <string name="receive_notifications">دریافت نوتیفیکیشن</string>
+    <string name="notifications_ringtone_settings">تنظیمات صدا</string>
+    <string-array name="notifications_ringtone">
+        <item>بدون صدا</item>
+        <item>با صدا</item>
+    </string-array>
+    <string-array name="notifications_ringtone_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="notifications_vibrate">لرزش</string>
+
+
+    <string name="owner_code_label">کد مشترک:</string>
+    <string name="owner_info_label">مشخصات مالک:</string>
+    <string name="last_seen_date_label">تاریخ آخرین بازدید:</string>
+    <string name="form_name_label">نوع منبع:</string>
+    <string name="show_on_map">نمایش در نقشه</string>
+    <string name="date">تاریخ</string>
+    <string name="report_description_body">برای گزارش گیری از منابع تا تاریخ مشخص ، ابتدا تاریخ مورد نظر خود را وارد و سپس گزینه گزارش گیری را انتخاب کنید .</string>
+    <string name="report_description_footer">در صورت نیاز به گزارش گیری کلی تاریخ را وارد نکنید</string>
+    <string name="save_information_no_data_fail">هیچ داده ای برای گزارش گیری وجود نداشت</string>
+    <string name="start_date_hint">تاریخ شروع</string>
+    <string name="finish_date_hint">تاریخ پایان</string>
+    <string name="summary">مشخصات</string>
+    <string name="send_document">ارسال سند</string>
+    <string name="document_series">سری ها</string>
+    <string name="new_document_series">سری جدید</string>
+    <string name="form_type_hint">نوع منبع</string>
+    <string name="search_result">موارد یافت شده</string>
+    <string name="welcome_text">نرم افزار همراه پایاب</string>
+    <string name="edition_label">نسخه:</string>
+    <string name="village_name_label">نام محل:</string>
+    <string name="filter">فیلتر کردن</string>
+    <string name="filter_description">لطفا منبع خود را جهت نمایش روی نقشه انتخاب کنید</string>
+    <string name="send_information_description_body">جهت ارسال اطلاعات تا تاریخ مشخص ، ابتدا تاریخ مورد نظر خود را وارد و سپس گزینه ارسال اطلاعات را انتخاب کنید .</string>
+    <string name="send_information_description_footer">در صورت نیاز به ارسال کلی اطلاعات ، تاریخ ها را وارد نکنید</string>
+    <string name="alert">پیام</string>
+    <string name="upload_information_success">اطلاعات با موفقیت ذخیره و ارسال شد.</string>
+    <string name="upload_information_fail">خطا در ارسال اطلاعات</string>
+    <string name="save_information_failed_no_location">خطا در ذخیره اطلاعات ، لطفا اطلاعات مربوط به موقعیت را وارد نمایید</string>
+    <string name="from">از</string>
+    <string name="send_document_series">ارسال این سری</string>
+    <string name="action_menu">گزینه ها</string>
+    <string name="resend_information">ارسال مجدد اطلاعات</string>
+    <string name="upload_documents_no_data_fail">کاربر عزیز، هیچ داده برای ارسال وجود نداشت!</string>
+
+
+    <string name="manage_passcode">مدیریت تایید دو مرحله ای</string>
+    <string name="enter_passcode">کد جدید تایید دو مرحله ای</string>
+    <string name="enter_old_passcode">کد قبلی تایید دو مرحله ای</string>
+    <string name="reenter_passcode">تکرار کد تایید دو مرحله ای</string>
+    <string name="change_passcode">تغییر کد تایید دو مرحله ای</string>
+    <string name="setup_passcode">تنظیم کد تایید دو مرحله ای</string>
+    <string name="passcode_wrong">کد وارد شده اشتباه است</string>
+    <string name="disable_passcode">لغو تایید دو مرحله ای</string>
+    <string name="enable_passcode">فعال سازی تایید دو مرحله ای</string>
+    <string name="two_passcode">تایید دو مرحله ای</string>
+    <string name="download_information_fail">خطا در دریافت اطلاعات</string>
+    <string name="download_information_success">بروزرسانی اطلاعات با موفقیت انجام شد</string>
+    <string name="load_from_storage">بارگذاری از حافظه</string>
+    <string name="load_from_server">بارگذاری از سرور</string>
+    <string name="get_kmls_update_error_no_data">کاربر عزیز، هیچ فایل جدیدی برای شما وجود نداشت!</string>
+    <string name="save_information_failed_has_property_error">خطا در ذخیره اطلاعات ، لطفا خطاهای کنترلی مربوط به داده ها را برطرف کنید</string>
+    <string name="document_not_saved">شما این سند را ذخیره نکرده اید! آیا می خواهید آنرا ذخیره کنید؟</string>
+    <string name="reset_forms">ریست کردن فرم ها</string>
+    <string name="reset_forms_summary">پاک کردن فرم ها و دریافت مجدد از سمت سرور</string>
+
+</resources>

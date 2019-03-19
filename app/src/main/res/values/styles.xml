@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/md_light_primary_text</item>
+        <item name="android:textColorSecondary">@color/md_light_secondary</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationStyle</item>
+    </style>
+
+    <style name="WindowAnimationStyle">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <!--<item name="android:windowExitAnimation">@android:anim/fade_out</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Drawer" parent="MaterialDrawerTheme">
+        <item name="material_drawer_selected_text">@color/colorAccent</item>
+        <item name="material_drawer_secondary_text">@color/md_dark_primary_text</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="Theme.CustomDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/background_rounded_white</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MaterialEditTextDark">
+        <item name="android:ems">10</item>
+        <item name="android:textSize">14sp</item>
+        <item name="met_accentTypeface">@string/fontNormal</item>
+        <item name="met_floatingLabel">highlight</item>
+        <item name="met_floatingLabelTextSize">10sp</item>
+        <item name="met_primaryColor">@color/accent</item>
+        <item name="met_singleLineEllipsis">true</item>
+        <item name="met_textColor">@color/md_white_1000</item>
+        <item name="met_textColorHint">@color/md_grey_300</item>
+    </style>
+
+    <style name="MaterialEditTextLight">
+        <item name="android:ems">10</item>
+        <item name="android:textSize">12sp</item>
+        <item name="met_accentTypeface">@string/fontNormal</item>
+        <item name="met_floatingLabel">highlight</item>
+        <item name="met_floatingLabelTextSize">10sp</item>
+        <item name="met_primaryColor">@color/accent</item>
+        <item name="met_singleLineEllipsis">true</item>
+        <item name="met_textColorHint">@color/md_grey_600</item>
+    </style>
+
+    <style name="MaterialButton">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/selector_accent_rounded_10dp</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+    </style>
+
+    <style name="HorizontalDivider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/md_dark_dividers</item>
+    </style>
+
+    <style name="VerticalDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/primary_dark</item>
+    </style>
+
+    <style name="DialogButtonAction">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:background">@drawable/selector_accent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PasscodeInputIStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:textColor">@color/md_black_1000</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:inputType">textPassword|number</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="PasscodeButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_accent_rounded_10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+
+</resources>

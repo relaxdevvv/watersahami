@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/algo"
+        android:icon="@drawable/ic_toolbar_menu"
+        android:title="@string/action_menu"
+        app:showAsAction="always">
+
+        <menu>
+
+            <group android:id="@+id/document">
+
+                <item
+                    android:id="@+id/action_document_series"
+                    android:icon="@drawable/ic_document_series_black"
+                    android:title="@string/document_series"
+                    app:showAsAction="collapseActionView" />
+
+                <item
+                    android:id="@+id/action_save"
+                    android:icon="@drawable/ic_save_black"
+                    android:title="@string/save"
+                    app:showAsAction="collapseActionView" />
+            </group>
+
+            <group android:id="@+id/send">
+
+                <item
+                    android:id="@+id/action_send_document"
+                    android:icon="@drawable/ic_upload_black"
+                    android:title="@string/send_document"
+                    app:showAsAction="collapseActionView" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
